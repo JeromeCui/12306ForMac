@@ -399,6 +399,7 @@ class TicketQueryViewController: BaseViewController {
                     let informativeText = "\(self.date!) \(self.fromStationNameTxt.stringValue)->\(self.toStationNameTxt.stringValue) \(ticket.TrainCode!) \(seatTypeId)"
                     self.pushUserNotification("有票提醒",informativeText: informativeText)
                     
+                    ReminderManager.sharedInstance.remindNow()
                     let reminderStr = informativeText + " 有票提醒"
                     ReminderManager.sharedInstance.createReminder(reminderStr, startDate: Date())
                 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02282F48201032110059C62C /* samsung_galaxy_best.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02282F47201032110059C62C /* samsung_galaxy_best.mp3 */; };
 		118EED211F9780F800CE6C67 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118EED191F9780F800CE6C67 /* SwiftyJSON.framework */; };
 		118EED221F9780F800CE6C67 /* OMGHTTPURLRQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118EED1A1F9780F800CE6C67 /* OMGHTTPURLRQ.framework */; };
 		118EED231F9780F800CE6C67 /* ObjcExceptionBridging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118EED1B1F9780F800CE6C67 /* ObjcExceptionBridging.framework */; };
@@ -128,6 +129,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		02282F47201032110059C62C /* samsung_galaxy_best.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = samsung_galaxy_best.mp3; path = 12306ForMac/Resources/samsung_galaxy_best.mp3; sourceTree = "<group>"; };
 		118EED191F9780F800CE6C67 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/Mac/SwiftyJSON.framework; sourceTree = "<group>"; };
 		118EED1A1F9780F800CE6C67 /* OMGHTTPURLRQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OMGHTTPURLRQ.framework; path = Carthage/Build/Mac/OMGHTTPURLRQ.framework; sourceTree = "<group>"; };
 		118EED1B1F9780F800CE6C67 /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjcExceptionBridging.framework; path = Carthage/Build/Mac/ObjcExceptionBridging.framework; sourceTree = "<group>"; };
@@ -495,6 +497,7 @@
 		F1D6D2C21E682140009DE8A1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				02282F47201032110059C62C /* samsung_galaxy_best.mp3 */,
 				F10F47A81D409ED3004668BB /* station_name.js */,
 				F11154971C8D927C00FA6059 /* StationData.swift */,
 				F17AB1CB1C95630E00FEB221 /* Credits.rtf */,
@@ -603,6 +606,7 @@
 				F1D575771C95541D00A214B0 /* TicketQueryViewController.xib in Resources */,
 				F12746761D50784100975DFA /* TrainFilterWindowController.xib in Resources */,
 				F1BCB97E1E72ECC600D1C7FA /* ReminderPreferenceViewController.xib in Resources */,
+				02282F48201032110059C62C /* samsung_galaxy_best.mp3 in Resources */,
 				F1F2F2C11D59AFB100EA7786 /* GeneralPreferenceViewController.xib in Resources */,
 				F17AB1CC1C95630E00FEB221 /* Credits.rtf in Resources */,
 				F11154C41C8D92D000FA6059 /* PassengerViewController.xib in Resources */,

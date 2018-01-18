@@ -8,6 +8,7 @@
 
 import Foundation
 import EventKit
+import AVFoundation
 
 class ReminderManager: NSObject {
     
@@ -40,6 +41,16 @@ class ReminderManager: NSObject {
         case .restricted, .denied:
             isAccessToEventStoreGranted = false
             return false
+        }
+    }
+    
+    func remindNow() -> Void {
+        let url = Bundle.main.url(forResource: "samsung_galaxy_best", withExtension: "mp3")!
+        do {
+            let player = try AVAudioPlayer(contentsOf: url)
+            player.prepareToPlay()
+            player.play()
+        } catch let _ {
         }
     }
     
