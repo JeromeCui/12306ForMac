@@ -86,7 +86,6 @@ class TicketTasksManager: NSObject {
                     ticketTasks.append(ticketTask)
                 }
             } catch {
-                
             }
         }
     }
